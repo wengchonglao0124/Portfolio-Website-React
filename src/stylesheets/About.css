@@ -1,0 +1,80 @@
+.About .description {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: #151515;
+    border-radius: 64px;
+    padding: 50px 50px;
+}
+
+.About .row {
+    justify-content: center;
+    align-items: center;
+}
+
+.About .description h5 {
+    line-height: 2;
+    justify-content: center;
+}
+
+.About .description p {
+    text-align: justify;
+}
+
+.circle-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-photo-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.education {
+    background: #151515;
+    border-radius: 64px;
+    padding: 60px 50px;
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 85%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.education .vertical-timeline-element-content a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.education .vertical-timeline-element-content h4 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.education .vertical-timeline-element-content ul {
+    margin-top: 25px;
+}
+
+.education .vertical-timeline-element-content li {
+    font-size: 12px;
+}

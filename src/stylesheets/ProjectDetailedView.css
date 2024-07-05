@@ -1,0 +1,45 @@
+.ProjectDetails {
+    color: #B8B8B8;
+    font-size: 25px;
+    letter-spacing: 1px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: #151515;
+    border-radius: 64px;
+    padding: 50px 50px;
+    text-align: left;
+}
+
+.ProjectDetails .project-image-box {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 14px;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #B8B8B8;
+    height: 20%;
+}
+
+.ProjectDetails .project-image-box img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.projectDetails {
+    margin-top: 30px;
+}
+
+.projectDetails a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #B8B8B8;
+    font-size: 18px;
+}
+
+.projectDetails .description {
+    text-align: justify;
+}

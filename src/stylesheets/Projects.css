@@ -1,0 +1,154 @@
+.Projects {
+    padding: 50px 0;
+    position: relative;
+    background: #151515;
+    border-radius: 64px;
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Projects h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.Projects p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+}
+
+.projectCard {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.projectCard .project-image-box {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 14px;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #B8B8B8;
+    height: 400px;
+}
+
+.projectCard .project-image-box img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.projectCard .project-image-box::before {
+    content: "";
+    background: linear-gradient(90.21deg, #ffffff -5.91%, #39383a 111.58%);
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.projectCard .project-image-box:hover::before {
+    height: 100%;
+}
+
+.project-text-box {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+}
+
+.project-text-box p {
+    color: #121212;
+    font-weight: 700;
+}
+
+.project-image-box:hover .project-text-box {
+    top: 50%;
+    opacity: 1;
+}
+
+.project-text-box h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+}
+
+.project-text-box span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+}
+
+.searchSection {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.searchSection p {
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.searchSection input {
+    width: 100%;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.3s;
+    background-color: #B8B8B8;;
+}
+
+.searchSection .badge {
+    cursor: pointer;
+}
+
+.searchSection .searchBar {
+    position: relative;
+    width: 100%;
+}
+
+.searchSection .searchBar .badge {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

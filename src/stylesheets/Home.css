@@ -1,0 +1,113 @@
+.banner {
+    margin-top: 0;
+    padding: 50px 0 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coding-computer {
+    background-position: top center;
+    background-size: 99% auto;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 12%;
+    padding-right: 10%;
+    background-color: #151515;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+}
+
+.banner .coding-line {
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-size: 22px;
+    margin-bottom: 16px;
+    line-height: 1.5em;
+    color: white;
+}
+
+.banner .tag-line {
+    background: linear-gradient(90.21deg, rgba(200, 84, 154, 0.78) -5.91%, rgba(104, 77, 219, 0.98) 111.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.banner .highlight-line {
+    background: linear-gradient(90.21deg, rgb(84, 200, 121) -5.91%, rgba(146, 219, 77, 0.98) 111.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.banner .highlight-line2 {
+    color: #B8B8B8;
+    display: inline-block;
+}
+
+.banner .command {
+    font-size: 16px;
+    color: #B8B8B8;
+}
+
+.banner .description {
+    font-size: 16px;
+    color: #B8B8B8;
+    text-align: justify;
+}
+
+.banner .description-highlight {
+    background: linear-gradient(90.21deg, rgb(84, 200, 183) -5.91%, rgba(77, 160, 219, 0.98) 111.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+}
+
+.banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.banner button {
+    font-weight: 700;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #B8B8B8;
+}
+
+.banner button .connect-line {
+    display: inline-block;
+}
+
+.banner button:hover .connect-line {
+    display: none;
+}
+
+.banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 1;
+    display: none;
+}
+
+.banner button:hover svg {
+    margin-left: 25px;
+    display: inline-block;
+}
