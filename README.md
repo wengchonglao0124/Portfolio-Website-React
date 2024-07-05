@@ -3,6 +3,9 @@
 ## Purpose
 This portfolio aims to showcase my coding skills and projects on my portfolio website.
 
+## Demo Video
+https://github.com/wengchonglao0124/Portfolio-Website-React/assets/85862169/3094bc3d-f64a-4880-ab76-4c220a5cdf0f
+
 ## Features
 - Utilising the GitHub API to dynamically showcase my coding skills and projects on my portfolio website 
 - Providing visitors with a direct link to my public repositories
